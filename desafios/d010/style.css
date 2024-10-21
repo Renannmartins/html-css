@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+}
+body {
+    background-color: #83E1AD;
+    margin: 0px;
+    height: 2700px;
+}
+
+p > a {
+    color: #021008;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+header {
+    background-image: linear-gradient(to top, #123d25, #268651, #68ab86);
+    padding-top: 30px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.439);
+   
+    
+} 
+
+header > h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    
+
+}
+
+.cap {
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 1.5em;
+
+   
+
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 900px;
+    height: 2430px;
+    padding-top: 1%;
+    border-radius: 0px 0px 11px 11px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.439);
+   
+
+}
+article > h2 {
+    padding-left: 20px ;
+    margin-top: 30px;
+    color: #063d1ed1;
+    font-size: 2.1em;
+    
+}
+article > p {
+    text-align: justify;
+    margin: 20px;
+    text-indent: 20px;
+    
+
+}
+article > .primeiraversao {
+    color: #063d1ed1;
+    padding-left: 1px ;
+    font-size: 1.8em;
+    background-color: #83e1ad22;
+    margin: 20px;
+    border-radius: 5px 10px;
+    
+}
+
+picture {
+    width: 600px;
+    padding-left: 50px;
+}
+
+.irina {
+    
+}
+
+.bugdroid {
+    margin-top: 25px;
+    padding-left: 236px;
+}
+aside  {
+    width: 900px;
+    height: 350px;
+    background-color: #123d25;
+}
+iframe {
+
+    margin-left: 48px;
+    width: 800px;
+    padding: 17px;
+}
+
+.ultimo {
+    margin: 40px 25px 10px;
+    background-color: #c5ebd6;
+    width: 850px;
+    padding: 200px 0px 0px 0px;
+    
+}
+
+h4 {
+    background-color: #3ddc84;
+    color: white;
+    margin: -200px 0px 0px 1px;
+    padding: 10px 10px;
+    text-indent: 4px;
+    font-size: 1.3em;
+}
+
+.ultimo > p {
+    text-align: justify;
+    margin: 20px;
+    text-indent: 20px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #123d25;
+    margin-top: 10px;
+    height: 20px;
+    padding: 1px;
+}
