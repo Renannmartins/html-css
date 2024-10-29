@@ -4,50 +4,57 @@
     margin: 0px;
     padding: 0px;
 }
-body {
-
+html, body {
+    background-color: darkgray;
 }
 
 header {
     background-color: black;
-    height: 300px;
+    text-align: center;
 }
 
-h1 {
+header > h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    text-align: center;
-    font-size: 5vw;
-    padding: 60px;
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
 header > p {
     color: white;
     text-align: center;
-    font-size: 3vw;
+    
+    padding-bottom: 50px;
 }
 
-header a {
+header a, footer a {
     color: white;
     text-decoration: none;
+    font-weight: bolder;
 }
 
-header a:hover {
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-
-
 section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+ section.normal {
+    background-color: white;
+    color: black;
     
-    font-size: 3vw;
-    text-align: justify;
-    line-height: 60px;
-   
-    padding: 70px;
-    width: 100%;
     
     
+}
+
+section#primeiraimagem > p {
+    background-color: rgba(0, 0, 0, 0.168);
+    width: 400px;
 }
 
 #primeiraimagem {
@@ -70,7 +77,12 @@ section {
     color: white;
 }
 
+.bloco {
+    
+}
 footer {
     text-align: center;
-    
+    background-color: black;
+    padding: 10px;
+    color: white;
 }
