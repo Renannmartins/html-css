@@ -22,6 +22,7 @@ html, body {
     min-height: 100vh;
     background-color: dark;
     font-family: var(--fonte1);
+    
 
 }
 
@@ -55,31 +56,57 @@ header a:hover, footer a:hover {
 
 section {
     padding-top: 10vh;
-    padding-bottom: 10vh;
+   
     line-height: 2em;
-    padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 3.5vw;
 }
-
+section > p {
+    padding-left: 30px;
+    padding-bottom: 2em;
+    margin-left: 60px;
+    padding-bottom: 10vh;
+}
 section.normal {
     background-color: white;
     color: black;
 }
 
 section.imagem {
-    background-color: rgb(46, 40, 40);
+    
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.349);
 }
 section.imagem > P {
+    
+    padding-left: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 80px;
+    margin-left: 50px;
     background-color: rgba(0, 0, 0, 0.096);
     display: inline-block;
-    padding: 5px;
+    
+    text-shadow: 2px 1px 0px black;
+}
+
+section#img01 {
+    
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 footer {
     background-color: black;
     text-align: center;
     color: white;
-    padding: 10px;
+    padding: 5px;
 }
